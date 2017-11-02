@@ -21,9 +21,15 @@ Follow these instructions to build and run the project
 
 7.Import the project. Open Android Studio, click Open an existing Android Studio project and select the project. Gradle will build the project.
 
-8.Replace google-service.json with yours from firebase website
+8.Replace google-service.json with yours from firebase website.
 
-9.Copy the refreshed token into .php page.
+9.Run the android project.
 
-10.Execute even.py file using python.
+10.Copy the refreshed token obtained from log into .php page.
+
+11.Copy the Server key from Firebase console to notifications.php.
+
+12.Change the IP address in even.py to your localhost.
+
+13.Execute even.py file using python.
 
